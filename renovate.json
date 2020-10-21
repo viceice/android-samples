@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":masterIssue", ":assignee(viceice)", ":semanticCommits"],
+  "extends": ["config:base", ":masterIssue", ":semanticCommits"],
   "includeForks": true,
   "gradle": { "ignorePaths": ["drive/conflict","drive/demos", "drive/quickstart", "drive/trash"]  }
 }
